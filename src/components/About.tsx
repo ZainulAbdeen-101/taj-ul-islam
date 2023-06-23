@@ -54,10 +54,10 @@ export default function About() {
               className="text-[#eaff01] text-lg font-semibold"
               variants={FADE_UP_ANIMATION_VARIANTS}
             >
-              Hello, i'm Taj Khan!
+              Hello, i am Taj Khan!
             </motion.p>
             <motion.p variants={FADE_UP_ANIMATION_VARIANTS}>
-              i'm a self-taught full stack web developer based in Karachi
+              i am a self-taught full stack web developer based in Karachi
               Pakistan.I can develop responsive websites from scratch and raise
               them into modern unique user-friendly web Experiences.
             </motion.p>
