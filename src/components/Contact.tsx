@@ -25,7 +25,7 @@ export default function Contact() {
       <motion.div
         ref={targetref}
         style={{ opacity, scale }}
-        className="mt-10 h-screen "
+        className="mt-32 h-screen "
       >
         <motion.div className="flex justify-around">
           <motion.div
@@ -101,16 +101,16 @@ export default function Contact() {
               </Link>
             </motion.p>
           </motion.div>
-          <motion.div className="absolute right-0 mt-16 bg-[#eaff01] w-[500px] h-[500px] z-[-10]"></motion.div>
+          <motion.div className="absolute right-0 mt-16 bg-[#eaff01] w-[550px] h-[500px] z-[-10]"></motion.div>
           <motion.div
             variants={Parent}
             initial="hidden"
             whileInView={"show"}
-            className="bg-[#fbfaf5] mt-32 px-10 max-w-[550px] text-center text-[#663DE4] text-[50px] font-font "
+            className="bg-[#663de4] mt-32 px-10 max-w-[550px]  text-[#fafbf5] text-[50px] font-font text-justify"
           >
             <motion.p
               variants={FADE_DOWN_ANIMATION_VARIANTS}
-              className="font-extralight"
+              className=""
             >
               Finding Me !! <br />
               Have an exciting project you need help with? Send me an email or

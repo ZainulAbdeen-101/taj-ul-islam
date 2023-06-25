@@ -19,7 +19,7 @@ export default function Work() {
 
   return (
     <>
-      <motion.div ref={targetref} style={{ opacity, scale }} className="  ">
+      <motion.div ref={targetref} style={{ opacity, scale }} className=" mt-20 ">
         <div className="flex space-x-1 justify-center">
           {text1.split("").map((char, i) => (
             <motion.h1
@@ -28,7 +28,7 @@ export default function Work() {
               whileInView="visible"
               variants={work}
               transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="font-font text-center text-[70px] text-[#eaff01]"
+              className="font-font text-center text-[70px] text-[#eaff01] "
             >
               {char}
             </motion.h1>
@@ -62,7 +62,7 @@ export default function Work() {
               >
                 <div className="p-2">
                   <Link
-                    href={"#"}
+                    href={"https://dinemarket-taj-ul-islam.vercel.app/"}
                     className="font-font text-[40px] text-[#eaff01] "
                   >
                     Dine Market
@@ -94,8 +94,9 @@ export default function Work() {
               >
                 <div className="p-2">
                   <Link
-                    href={"#"}
+                    href={"https://codevistasolutions.vercel.app/"}
                     className="font-font text-[40px] text-[#eaff01] "
+                    target="_blank"
                   >
                     Codevista Solutions
                   </Link>
@@ -125,8 +126,9 @@ export default function Work() {
               >
                 <div className="p-2">
                   <Link
-                    href={"#"}
+                    href={"https://fourdote-app.vercel.app/"}
                     className="font-font text-[40px] text-[#eaff01] "
+                    target="_blank"
                   >
                     Tech Spark
                   </Link>
@@ -156,8 +158,9 @@ export default function Work() {
               >
                 <div className="p-2">
                   <Link
-                    href={"#"}
+                    href={"https://my-portfolio-app-zainulabdeen-101.vercel.app/"}
                     className="font-font text-[40px] text-[#eaff01] "
+                    target="_blank"
                   >
                     Anime Pros
                   </Link>
