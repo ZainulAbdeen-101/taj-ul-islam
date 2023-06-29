@@ -13,7 +13,7 @@ export default function Work() {
     offset: ["end end", "end start"],
   });
   const opacity = useTransform(scrollYProgress, [0.1, 0.7], [1, 0]);
-  const scale = useTransform(scrollYProgress, [0.1, 0.7], [1, 1.3]);
+  const scale = useTransform(scrollYProgress, [0.1, 0.7], [1, 1.1]);
 
   const text1 = "Work";
 
