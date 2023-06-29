@@ -33,7 +33,7 @@ export default function Expertise() {
     offset: ["end end", "end start"],
   });
   const opacity = useTransform(scrollYProgress, [0.3, 0.9], [1, 0]);
-  const x = useTransform(scrollYProgress, [0.3, 0.8], [0, 1000]);
+  const x = useTransform(scrollYProgress, [0.3, 0.8], [0, -1000]);
   const words = "My-Expertise";
   const letters = words.split("");
   return (
